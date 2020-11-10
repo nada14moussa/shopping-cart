@@ -1,0 +1,54 @@
+#items{
+ display: flex; 
+ justify-content: space-around;
+ margin-top: 20px;
+}
+.card img {
+    height: 250px;
+    
+}
+.qnt{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+.quantity{
+    text-align: center;
+}
+.price {
+    margin-top: 30px;
+    text-align: center;
+}
+.t-price{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;   
+}
+#total {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+#total div,#total h2,#total h1{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.card-body h5, .card-body i {
+    display: inline;
+}
+.fa-heart{
+    padding-left: 180px;
+    font-size: 30px;
+    /*color: red;*/
+}
